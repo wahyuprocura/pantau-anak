@@ -1,0 +1,38 @@
+# ===== Rahasia & data =====
+**/.env
+server/.env
+server/data/
+*.pem
+*.key
+
+# ===== Node (server) =====
+server/node_modules/
+node_modules/
+npm-debug.log*
+
+# ===== Flutter / Dart (kedua app) =====
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/.gradle/
+**/generated_plugin_registrant.*
+**/*.g.dart.lock
+
+# ===== Android =====
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/*.keystore
+**/*.jks
+
+# ===== APK / artefak besar =====
+*.apk
+*.aab
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml

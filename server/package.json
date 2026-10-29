@@ -1,0 +1,21 @@
+{
+  "name": "pantau-anak-server",
+  "version": "0.1.0",
+  "description": "Backend pemantauan anak (self-hosted di home-server UserLAnd)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "init-db": "node src/db.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "nanoid": "^5.0.9",
+    "ws": "^8.18.0"
+  }
+}
